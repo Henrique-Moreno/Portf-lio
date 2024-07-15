@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6;
+  background-color: #1a1919;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 14px 0;
+}
+
+.hello {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+  padding-left: 1rem;
+  color: #d8d8da;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.navegacao-links {
+  width: 60rem;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navegacao-links li a {
+  text-decoration: none;
+  color: #fefefe;
+  font-weight: 500;
+}
+
+.navegacao-links li a:hover {
+  text-decoration: underline;
+  color: #9a4de7;
+}
+
+.container-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 6rem 5rem;
+}
+
+.portfolio h1 {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  color: #9a4de7;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.portfolio h3 {
+  margin: 1rem 0;
+  color: #fefefe;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.portfolio i {
+  color: #9a4de7;
+}
+
+.portfolio ul li {
+  color: #fefefe;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2em;
+}
+
+.projeto-dois {
+  margin-top: 4rem;
+}
+
+.portfolio p {
+  color: #fefefe;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2em;
+  padding: 0.3rem 0;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.formulario label {
+  color: #fefefe;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2em;
+  padding: 0.3rem 0;
+}
+
+.formulario input {
+  width: 30rem;
+  height: 2.2rem;
+}
+
+.formulario textarea {
+  width: 30rem;
+  height: 10rem;
+  resize: none;
+}
+
+.formulario input::placeholder {
+  color: #1a1919;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.formulario textarea::placeholder {
+  color: #1a1919;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.formulario button {
+  margin-top: 2rem;
+  width: 30rem;
+  height: 2.2rem;
+  color: #1a1919;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #9a4de7;
+}

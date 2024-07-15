@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navegacao">
+            <h1 class="hello">Hello 👋</h1>
+            <ul class="navegacao-links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./formacao-educacional.html">Formação Educacional</a></li>
+                <li><a href="./portfolio.html">Portfólio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-portfolio">
+            <article class="portfolio">
+                <h1>Portfólio</h1>
+
+                <h3>Projeto 1: Site Corporativo da Empresa XYZ</h3>
+
+                <ul>
+                    <li>
+                        <i>Descrição:</i> Desenvolvi um site corporativo moderno e responsivo para a Empresa XYZ. O
+                        objetivo era criar uma presença online profissional que destacasse os serviços e produtos da
+                        empresa.
+                    </li>
+                    <li>
+                        <i>Tecnologias Utilizadas:</i> HTML, CSS, JavaScript
+                    </li>
+                    <li>
+                        <i>Desafios e Soluções:</i> Um dos maiores desafios foi garantir que o site fosse totalmente
+                        responsivo e acessível. Resolvi isso utilizando técnicas de design responsivo e realizando
+                        testes rigorosos em diferentes dispositivos.
+                    </li>
+                </ul>
+            </article>
+
+            <article class="portfolio projeto-dois">
+
+                <h3>Projeto 2: Aplicação Web Interativa para a Startup ABC</h3>
+
+                <ul>
+                    <li>
+                        <i>Descrição:</i> Criei uma aplicação web interativa para a Startup ABC, focada em fornecer uma
+                        plataforma intuitiva para seus usuários.
+                    </li>
+                    <li>
+                        <i>Tecnologias Utilizadas:</i> HTML, CSS, JavaScript, Vue.js, Firebase
+                    </li>
+                    <li>
+                        <i>Desafios e Soluções:</i> A integração com o backend em Firebase apresentou alguns desafios,
+                        mas foi superada com a implementação de soluções criativas e eficientes para a gestão de dados
+                        em tempo real.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container-portfolio">
+            <article class="portfolio">
+                <h3>Vamos Conversar</h3>
+
+                <p>
+                    Se você está interessado em algum dos meus projetos ou gostaria de discutir uma colaboração, ficarei
+                    feliz em ouvir de você. Estou sempre em busca de novos desafios e oportunidades para aplicar minhas
+                    habilidades.
+                </p>
+
+                <p>
+                    Por favor, preencha o formulário abaixo com suas informações e uma breve descrição do que você está
+                    procurando. Responderei o mais rápido possível para discutirmos como posso ajudar a transformar suas
+                    ideias em realidade!
+                </p>
+            </article>
+
+            <div class="container-formulario">
+                <form id="contato-formulario" class="formulario">
+                    <label for="name">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Seu email" required>
+                    <label for="subject">Assunto</label>
+                    <input type="text" name="subject" id="subject" placeholder="Assunto da mensagem" required>
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/formulario.js"></script>
+
+</body>
+</html>
